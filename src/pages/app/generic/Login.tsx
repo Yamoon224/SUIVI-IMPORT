@@ -68,8 +68,7 @@ const Login = ({}) => {
             else if(err.response.status == HttpStatusCode.Forbidden){
                setNoticePassword(err.response.data.unchanged_password);
                const token = err.response.data.token;
-               localStorage.setItem("authToken", token);
-               
+               localStorage.setItem("authToken", token);               
             }
             else{
                problemOccur();

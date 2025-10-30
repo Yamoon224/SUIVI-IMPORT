@@ -2,7 +2,7 @@ import axios from "axios";
 
 
 
-export const URI_BASE = 'http://127.0.0.1:8080/api';
+export const URI_BASE = 'https://suivi-import-backend-production.up.railway.app/api';
 // export const URI_BASE = 'http://10.90.9.142:81/api';
 
 
